@@ -2,7 +2,8 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAhnC2h0sOJMh09loQ_UTpDxPasxJ-aPAU", // https://console.firebase.google.com/project/alex-odesa/settings/general
+    // звісно, всю цю радість треба приховати в .env-файл!
+    apiKey: "AIzaSyAhnC2h0sOJMh09loQ_UTpDxP*******", // Settings > General > Web App
     authDomain: "alex-odesa.firebaseapp.com",
     projectId: "alex-odesa",
     storageBucket: "alex-odesa.firebasestorage.app",
